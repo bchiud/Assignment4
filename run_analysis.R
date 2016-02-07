@@ -62,3 +62,5 @@ final_data <- aggregate(.~SubjectID + ActivityName,mean_std_data,mean) %>%
   arrange(SubjectID,ActivityName)
 
 write.csv(final_data,"tidy.csv",row.names=F)
+
+write.table(final_data,"tidy.txt",row.name=F)
