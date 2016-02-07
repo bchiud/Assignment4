@@ -23,7 +23,7 @@ This repository is for the final assignment of the Getting and Cleaning Data cla
 
 Our **[run_analysis.R](https://github.com/bchiud/Assignment4/blob/master/run_analysis.R)** script cleans and transforms the [**original dataset**](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) into an output file named [**tidy.csv**](https://github.com/bchiud/Assignment4/blob/master/tidy.csv)
 
-The downloaded original data files should be put within the working directory, in a subdirectory named `data`.
+To run:
 
-Once the R script is run, the output file will be created within the working directory.
-
+1.  Download the original data files and put them within the working directory, in a subdirectory named `data`.]
+2.  Run the `run_analysis.R` R-script, and an output file named `tidy.csv` will be generated to the working directory
