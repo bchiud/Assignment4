@@ -1,0 +1,29 @@
+---
+title: "Readme"
+author: "Brady Chiu"
+date: "February 7, 2016"
+---
+
+******
+
+This repository is for the final assignment of the Getting and Cleaning Data class.
+
+******
+
+### Files
+
+1.  [**Codebook.Rmd**](https://github.com/bchiud/Assignment4/blob/master/codebook.Rmd) : Summary of all the variables and summaries calculated, along with units, and any other relevant information.
+2.  [**UCI HAR Dataset**](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) : Source data for this project
+3.  [**Run_Analysis.R**](https://github.com/bchiud/Assignment4/blob/master/run_analysis.R) : Script to transform and output data, with comments to explain the step-by-step process
+4.  [**Tidy.csv**](https://github.com/bchiud/Assignment4/blob/master/tidy.csv) : Output file
+
+******
+
+### Process
+
+Our **[run_analysis.R](https://github.com/bchiud/Assignment4/blob/master/run_analysis.R)** script cleans and transforms the [**original dataset**](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) into an output file named [**tidy.csv**](https://github.com/bchiud/Assignment4/blob/master/tidy.csv)
+
+The downloaded original data files should be put within the working directory, in a subdirectory named `data`.
+
+Once the R script is run, the output file will be created within the working directory.
+
