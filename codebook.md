@@ -1,11 +1,6 @@
----
-title: "Codebook for Assignment 4"
-author: "Brady Chiu"
-date: "February 7, 2016"
-output:
-  html_document:
-    keep_md: true
----
+# Codebook for Assignment 4
+Brady Chiu  
+February 7, 2016  
 
 ******
 
